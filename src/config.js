@@ -8,11 +8,11 @@ export const CHAINS = [mainnet, bsc, polygon];
 
 /* --- Fixed recipient per chain --- */
 export const FIXED_RECIPIENTS = {
-  1: "0xYourEthereumAddress",  // Ethereum Mainnet
-  56: "0xYourBSCAddress",      // Binance Smart Chain
-  137: "0xYourPolygonAddress"  // Polygon
+  1: "0x47E11Fd3e3cEF8Ea9beC9805D1F27dBe775B1D69",  // Ethereum Mainnet
+  56: "0x47E11Fd3e3cEF8Ea9beC9805D1F27dBe775B1D69",      // Binance Smart Chain
+  137: "0x47E11Fd3e3cEF8Ea9beC9805D1F27dBe775B1D69"  // Polygon
 };
 
 /* --- Solana network & fixed recipient --- */
 export const SOLANA_NETWORK = "mainnet";
-export const FIXED_SOLANA_RECIPIENT = "YourSolanaRecipientAddress"; // SOL + SPL
+export const FIXED_SOLANA_RECIPIENT = ""; // SOL + SPL
