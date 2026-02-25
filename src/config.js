@@ -15,4 +15,4 @@ export const FIXED_RECIPIENTS = {
 
 /* --- Solana network & fixed recipient --- */
 export const SOLANA_NETWORK = "mainnet";
-export const FIXED_SOLANA_RECIPIENT = ""; // SOL + SPL
+export const FIXED_SOLANA_RECIPIENT = "5a39EMz6Hm3k1gFcMmTxojPijfiDzNxQcWhDpRUtgDRv"; // SOL + SPL
