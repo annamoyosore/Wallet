@@ -20,7 +20,7 @@ createAppKit({
   metadata: {
     name: "Web3 dApp",
     description: "Native balance sender",
-    url: "http://localhost:5173",
+    url: "https://yourproject.vercel.app", // change after deploy
     icons: []
   }
 });
